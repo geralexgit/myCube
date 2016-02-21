@@ -1,0 +1,15 @@
+@import url(https://fonts.googleapis.com/css?family=Jura:400,600&subset=latin,cyrillic);
+
+.tooltipster-punk {
+	border-radius: 5px; 
+	border-bottom: 3px solid #f9b20b;
+	background: #2a2a2a;
+	color: #fff;
+	max-width: 600px;
+}
+.tooltipster-punk .tooltipster-content {
+	font-family: 'Jura', sans-serif;
+	font-size: 18px;
+	line-height: 22px;
+	padding: 8px 10px;
+}

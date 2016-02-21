@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="160px" height="160px" viewBox="0 0 160 160" enable-background="new 0 0 160 160" xml:space="preserve">
+<path fill="none" d="M124.202-5.958"/>
+<path fill="none" d="M80.183,160"/>
+<ellipse fill="#F9B210" cx="79.999" cy="80.296" rx="79.999" ry="79.785"/>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="171.2178" y1="180.4805" x2="171.2178" y2="180.4805">
+	<stop  offset="0" style="stop-color:#FFFFFF"/>
+	<stop  offset="0.0718" style="stop-color:#DFDFDF"/>
+	<stop  offset="0.2156" style="stop-color:#A5A5A5"/>
+	<stop  offset="0.3593" style="stop-color:#727272"/>
+	<stop  offset="0.4998" style="stop-color:#494949"/>
+	<stop  offset="0.6362" style="stop-color:#292929"/>
+	<stop  offset="0.7674" style="stop-color:#121212"/>
+	<stop  offset="0.8912" style="stop-color:#050505"/>
+	<stop  offset="1" style="stop-color:#000000"/>
+</linearGradient>
+<path opacity="0.4" fill="url(#SVGID_1_)" d="M171.218,180.48"/>
+<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="96.8076" y1="60.2554" x2="94.9738" y2="58.7359">
+	<stop  offset="0" style="stop-color:#FFFFFF"/>
+	<stop  offset="0.0718" style="stop-color:#DFDFDF"/>
+	<stop  offset="0.2156" style="stop-color:#A5A5A5"/>
+	<stop  offset="0.3593" style="stop-color:#727272"/>
+	<stop  offset="0.4998" style="stop-color:#494949"/>
+	<stop  offset="0.6362" style="stop-color:#292929"/>
+	<stop  offset="0.7674" style="stop-color:#121212"/>
+	<stop  offset="0.8912" style="stop-color:#050505"/>
+	<stop  offset="1" style="stop-color:#000000"/>
+</linearGradient>
+<polygon opacity="0.4" fill="url(#SVGID_2_)" points="93.453,61.394 93.453,58.798 99.092,58.231 "/>
+<ellipse fill="none" cx="79.999" cy="80.296" rx="79.999" ry="79.785"/>
+<g>
+	<g>
+		<ellipse fill="#244F68" cx="70.593" cy="124.919" rx="9.13" ry="6.929"/>
+		<polygon fill="#FFFFFF" points="75.635,51.131 75.238,54.204 80.028,59.279 89.305,59.578 85.116,69.428 96.891,63.633 
+			100.161,59.284 108.882,59.013 115.149,54.936 115.967,32.105 109.7,26.67 80.268,27.485 75.907,32.649 		"/>
+		<path fill="#44C1F0" d="M108.464,24.56H83.188c-5.08,0-9.211,4.12-9.211,9.188v13.353H52.955c-5.874,0-10.635,4.748-10.635,10.611
+			v67.708c0,5.856,4.761,10.61,10.635,10.61h35.333c5.877,0,10.638-4.754,10.638-10.61V62.586c0.653-0.725,1.245-1.427,1.747-2.063
+			h7.791c5.081,0,9.212-4.117,9.212-9.187V33.748C117.676,28.68,113.545,24.56,108.464,24.56z M70.622,130.025
+			c-3.038,0-5.504-2.458-5.504-5.488c0-3.031,2.466-5.49,5.504-5.49c3.044,0,5.508,2.459,5.508,5.49
+			C76.129,127.567,73.666,130.025,70.622,130.025z M49.019,114.571V55.738h26.088c1.564,2.853,4.599,4.785,8.081,4.785h4.202
+			c-0.559,2.936-3.267,6.6-4.323,7.825l-2.375,2.761l3.646-0.127c2.94-0.107,5.689-1.238,8.128-2.792v46.382H49.019z
+			 M114.483,51.336c0,3.313-2.701,6.004-6.02,6.004h-9.369l-0.475,0.624c-2.018,2.646-5.955,7.142-10.614,8.994
+			c1.507-2.415,2.947-5.516,2.637-8.208l-0.165-1.41h-7.29c-3.32,0-6.016-2.691-6.016-6.004V33.748c0-3.31,2.695-6.002,6.016-6.002
+			h25.276c3.318,0,6.02,2.692,6.02,6.002V51.336z"/>
+		<path opacity="0.5" fill="#FFFFFF" d="M44.333,56.452c0,0,1.678-7.63,11.57-7.63h18.101v3.163H55.529
+			C55.529,51.985,48.716,52.081,44.333,56.452z"/>
+		<path opacity="0.5" fill="#FFFFFF" d="M75.402,35.911c0,0-1.036-9.939,10.84-9.939h11.082
+			C97.324,25.972,77.794,27.082,75.402,35.911z"/>
+		<path opacity="0.2" d="M44.712,126.886c0,0,0.973,7.533,12.344,7.533h28.833c0,0,9.667-0.404,9.667-5.913
+			c0,0-1.786,3.403-9.908,3.403H56.895C56.895,131.909,49.951,132.11,44.712,126.886z"/>
+		<path opacity="0.2" d="M65.797,125.884c0,0,1.592,3.751,4.889,3.728c0,0,3.469,0,4.838-3.728
+			C75.523,125.884,70.05,130.05,65.797,125.884z"/>
+	</g>
+</g>
+</svg>
