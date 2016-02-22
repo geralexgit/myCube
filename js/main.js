@@ -3,6 +3,7 @@ $(document).ready(function() {
     $('.tooltip').tooltipster({
         theme: 'tooltipster-punk'
     });
+        $('#cube').removeClass().addClass('RTB');
 });
 
 $(function() {
@@ -60,7 +61,7 @@ var messageSent = function() {
 }
 
 
-var form = document.getElementById("contact-form");
+/*var form = document.getElementById("contact-form");
 form.onsubmit = function() {
     var service = document.getElementById("service").value;
     var name = document.getElementById("name").value;
@@ -77,6 +78,30 @@ form.onsubmit = function() {
             $('#contact-form').hide();
             $('#partnership').hide();
             $('#cube').removeClass().addClass('BF');
+        }
+    })
+    return false;
+};*/
+
+var sendForm = function() {
+    var task = $("#service").val();
+    var clientName = $("#name").val();
+    var clientPhone = $("#phone").val();
+    var clientMessage = $("#message").val();
+    var finishedMessage = 'Тип задачи: ' + task + '. Имя обратившегося: ' + clientName + '. Номер телефона: ' + clientPhone + '. Текст сообщения: ' + clientMessage;
+
+
+    $.ajax({
+        type: "post",
+        url: "send.php",
+        data: finishedMessage,
+        cache: false,
+        success: function(html) {
+            console.log(task, clientName, clientPhone, clientMessage);
+            console.log(finishedMessage);
+            /*$('#contact-form').hide();
+            $('#partnership').hide();
+            $('#cube').removeClass().addClass('BF');*/
         }
     })
     return false;

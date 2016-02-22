@@ -203,7 +203,7 @@
                <a href="#" class="turn-right" id="back-to-left"><i class="fa fa-arrow-right fa-2x"></i></a>              
                <!--<video autoplay></video>-->
                <h2 id="partnership">Начать сотрудничать</h2>
-               <form method="POST" action="send.php" id="contact-form" name="contact-form" role="form">
+               <!--<form method="POST" action="send.php" id="contact-form" name="contact-form" role="form">
                   <select id="service" name="service" required>
                      <option value="none">Тип задачи</option>
                      <option value="html">Вёрстка страниц (HTML-вёрстка)</option>
@@ -216,6 +216,20 @@
                   <input id="phone" maxlength="15" name="phone" placeholder="Введите номер телефона" type="tel" required>
                   <textarea type="text" placeholder="Кратко опишите задачу" name="message" id="message" required></textarea>
                   <button id="send" class="ripple animation" type="submit"><i class="fa fa-envelope-o"></i> Отправить</button>
+               </form>-->
+               <form id="contact-form" action="send.php" name="contact-form" role="form">
+                  <select id="service" name="service" required>
+                     <option value="none">Тип задачи</option>
+                     <option value="html">Вёрстка страниц (HTML-вёрстка)</option>
+                     <option value="javascript">Разработка функционала</option>
+                     <option value="design">Дизайн интерфейса страницы или приложения (UI/UX, WEB-Design)</option>
+                     <option value="site">Разработка сайта</option>
+                     <option value="other">Другое или несколько</option>
+                  </select>
+                  <input id="name" maxlength="30" name="name" placeholder="Введите ваше имя" type="text">
+                  <input id="phone" maxlength="15" name="phone" placeholder="Введите номер телефона" type="tel" required>
+                  <textarea type="text" placeholder="Кратко опишите задачу" name="message" id="message" required></textarea>
+                  <button id="send" class="ripple animation" onclick="sendForm(); return false;" type="submit"><i class="fa fa-envelope-o"></i> Отправить</button>
                </form>
             </div>
             <div id="left">
