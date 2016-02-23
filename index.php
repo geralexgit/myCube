@@ -2,7 +2,7 @@
 <html lang="en" class="js csstransforms3d">
    <head>
       <meta charset="UTF-8">
-      <title>Welcome!</title>
+      <title>Герасимов Александр – Веб разработчик</title>
       <link rel="shortcut icon" href="dev.png" type="image/png">
       <link rel="stylesheet" href="styles/main.css">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
