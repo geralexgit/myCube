@@ -3,7 +3,6 @@ $(document).ready(function() {
     $('.tooltip').tooltipster({
         theme: 'tooltipster-punk'
     });
-        $('#cube').removeClass().addClass('RTB');
 });
 
 $(function() {
@@ -59,29 +58,24 @@ $('#left-to-face').on('click', function() {
 var messageSent = function() {
     $('#cube').removeClass().addClass('BF');
 }
+//services icons
+$('#html').on('click', function() {
+    $('#cube').removeClass().addClass('RTB');
+    $('#service').val('html');
+});
+$('#front-end').on('click', function() {
+    $('#cube').removeClass().addClass('RTB');
+    $('#service').val('javascript');
+});
+$('#cms').on('click', function() {
+    $('#cube').removeClass().addClass('RTB');
+    $('#service').val('site');
+});
+$('#ui-ux').on('click', function() {
+    $('#cube').removeClass().addClass('RTB');
+    $('#service').val('design');
+});
 
-
-/*var form = document.getElementById("contact-form");
-form.onsubmit = function() {
-    var service = document.getElementById("service").value;
-    var name = document.getElementById("name").value;
-    var phone = document.getElementById("phone").value;
-    var message = document.getElementById("message").value;
-    var dataString = 'name=' + name + '&service='+ service + '&phone=' + phone + '&message=' + message;
-    console.log(dataString);
-    $.ajax ({
-        type:"post",
-        url: "send.php",
-        data: dataString,
-        cache: false,
-        success: function(html) {
-            $('#contact-form').hide();
-            $('#partnership').hide();
-            $('#cube').removeClass().addClass('BF');
-        }
-    })
-    return false;
-};*/
 
 var sendForm = function() {
     var task = $("#service").val();
@@ -89,7 +83,6 @@ var sendForm = function() {
     var clientPhone = $("#phone").val();
     var clientMessage = $("#message").val();
     var finishedMessage = 'Тип задачи: ' + task + '. Имя обратившегося: ' + clientName + '. Номер телефона: ' + clientPhone + '. Текст сообщения: ' + clientMessage;
-
     var msg = $('#contact-form').serialize();
 
     $.ajax({
@@ -98,13 +91,12 @@ var sendForm = function() {
         data: msg,
         cache: false,
         success: function(html) {
-            console.log(task, clientName, clientPhone, clientMessage);
-            console.log(finishedMessage);
-            console.log(msg);
-            /*$('#contact-form').hide();
+            $('#contact-form').hide();
             $('#partnership').hide();
-            $('#cube').removeClass().addClass('BF');*/
+            $('#cube').removeClass().addClass('BF');
         }
     })
     return false;
 };
+
+

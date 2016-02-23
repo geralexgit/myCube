@@ -11,21 +11,12 @@
       <link rel="stylesheet" href="styles/jquery.materialripple.css">
     </head>
    <body>
-      <!--<div id="fb-root"></div>
-         <script>(function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s); js.id = id;
-            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
-            fjs.parentNode.insertBefore(js, fjs);
-            }(document, 'script', 'facebook-jssdk'));
-         </script>-->
       <div id="viewport">
          <div id="cube">
             <div id="front">
                <!--<a href="#" class="turn-up" id="go-TF"><i class="fa fa-arrow-top fa-2x"></i></a>
                   <a href="#" class="turn-down"><i class="fa fa-arrow-down fa-2x"></i></a>  -->
-               <a href="#" class="turn-left" id="front-to-left"><i class="fa fa-arrow-left fa-2x"></i></a>
+               <a href="#" class="turn-left hidden" id="front-to-left"><i class="fa fa-arrow-left fa-2x"></i></a>
                <a href="#" class="turn-right" id="front-to-right"><i class="fa fa-arrow-right fa-2x"></i></a>
                <div class="photo tooltip" title="Доброго времени суток! Меня зовут Александр, я занимаюсь WEB-разаработкой. Возможно, я могу быть Вам полезен. Связаться со мной вы можете кликнув на одну из иконок чуть ниже или заполнив форму немного позже."></div>
                <h1>Gerasimov Alexander</h1>
@@ -39,7 +30,7 @@
                <a href="#" class="turn-left" id="right-to-front"><i class="fa fa-arrow-left fa-2x"></i></a>
                <a href="#" class="turn-right" id="right-to-back"><i class="fa fa-arrow-right fa-2x"></i></a>
                <div class="icon-container" id="html">
-                  <svg version="1.1" id="Layer_1" class="tooltip" title="Я могу сверстать вам интернет-страницу, будь то лэндинг (landing-page), страница интернет-магазина, страница интернет-портала или страница приложения, которая будет одинаково хорошо смотреться на любом устройстве, от огромного экрана MAC (с разрешением 4К) до маленькго телефона. А так же установить на нее счетчик и настроить инструменты для наблюдения за статистикой."  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                  <svg version="1.1" id="Layer_1" class="tooltip" title="Я могу сверстать вам интернет-страницу, будь то лэндинг (landing-page), страница интернет-магазина, страница интернет-портала или страница приложения, которая будет одинаково хорошо смотреться на любом устройстве, от настольного ПК, до небольшого телефона. Внести правки в существующие страницы, добавить анимацию и визуальные эффекты. А так же установить на нее счетчик и настроить инструменты для наблюдения за статистикой."  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                      width="160px" height="160px" viewBox="0 0 160 160" enable-background="new 0 0 160 160" xml:space="preserve">
                      <path fill="#24CAFE" d="M160,79.875c0,44.115-35.757,79.876-79.875,79.876c-44.114,0-79.875-35.762-79.875-79.876S36.011,0,80.125,0
                         C124.243,0,160,35.761,160,79.875z"/>
@@ -76,7 +67,7 @@
                   </svg>
                </div>
                <div class="icon-container" id="front-end">
-                  <svg version="1.1"  class="tooltip" title="Добавить к Вашей существующей верстке необходимый функционал используя язык JavaScript (Front-End разработка)." id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                  <svg version="1.1"  class="tooltip" title="Добавить к Вашей существующей верстке необходимый функционал. Например, отправка сообщений из формы на странице в месcенджер Telegram" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                      width="160px" height="160px" viewBox="0 0 160 160" enable-background="new 0 0 160 160" xml:space="preserve">
                      <path fill="#F9B210" d="M160.366,80c0,44.183-35.899,80-80.183,80C35.896,160,0,124.183,0,80C0,35.814,35.896,0,80.183,0
                         C124.467,0,160.366,35.814,160.366,80z"/>
@@ -99,7 +90,7 @@
                   </svg>
                </div>
                <div class="icon-container" id="ui-ux">
-                  <svg version="1.1" class="tooltip" title="Спроектировать интерфейс для Вашего WEB-приложения, заранее проанализировав и оценив, что именно будет важнее всего вашему будущему пользователю. Переделать существующий дизайн страниц или нарисовать новый с учетом последних тенденций в мире WEB-дизайна и технологий. (UI/UX, WEB-Design)" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                  <svg version="1.1" class="tooltip" title="Спроектировать интерфейс для Вашего WEB-приложения, заранее проанализировав и оценив, что именно будет важнее всего вашему будущему пользователю. Переделать существующий дизайн страниц или создать новый с учетом последних тенденций в мире WEB-дизайна и технологий. (UI/UX, WEB-Design)" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                      width="160px" height="160px" viewBox="0 0 160 160" enable-background="new 0 0 160 160" xml:space="preserve">
                      <path fill="none" d="M124.202-5.958"/>
                      <path fill="none" d="M80.183,160"/>
@@ -194,29 +185,13 @@
                      <path opacity="0.3" fill="#FFFFFF" d="M81.484,78l2.58,4h-8.129C75.935,82,81.484,81.313,81.484,78z"/>
                   </svg>
                </div>
-               <!--<a class="twitter-timeline" href="https://twitter.com/alexangeras" data-widget-id="651735411170148352">Tweets by @alexangeras</a>
-                  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>-->
             </div>
             <div id="back">
                <a href="#" class="turn-left" id="back-to-rigth"><i class="fa fa-arrow-left fa-2x"></i></a>
                <!--go-FFF- id to first face-->
-               <a href="#" class="turn-right" id="back-to-left"><i class="fa fa-arrow-right fa-2x"></i></a>              
+               <a href="#" class="turn-right hidden" id="back-to-left"><i class="fa fa-arrow-right fa-2x"></i></a>              
                <!--<video autoplay></video>-->
                <h2 id="partnership">Начать сотрудничать</h2>
-               <!--<form method="POST" action="send.php" id="contact-form" name="contact-form" role="form">
-                  <select id="service" name="service" required>
-                     <option value="none">Тип задачи</option>
-                     <option value="html">Вёрстка страниц (HTML-вёрстка)</option>
-                     <option value="javascript">Разработка функционала</option>
-                     <option value="design">Дизайн интерфейса страницы или приложения (UI/UX, WEB-Design)</option>
-                     <option value="site">Разработка сайта</option>
-                     <option value="other">Другое или несколько</option>
-                  </select>
-                  <input id="name" maxlength="30" name="name" placeholder="Введите ваше имя" type="text">
-                  <input id="phone" maxlength="15" name="phone" placeholder="Введите номер телефона" type="tel" required>
-                  <textarea type="text" placeholder="Кратко опишите задачу" name="message" id="message" required></textarea>
-                  <button id="send" class="ripple animation" type="submit"><i class="fa fa-envelope-o"></i> Отправить</button>
-               </form>-->
                <form id="contact-form" action="send.php" name="contact-form" role="form">
                   <select id="service" name="service" required>
                      <option value="none">Тип задачи</option>
@@ -239,7 +214,10 @@
                <script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=cw37YkbdOKZJscRMYtI6uZ5Fx7pkHv7B&width=380&height=380&lang=ru_RU&sourceType=constructor"></script>
             </div>
             <div id="top"></div>
-            <div id="bottom"></div>
+            <div id="bottom">
+               <i class="fa fa-check fa-5 ok"></i> 
+               <h3>Ваше сообщение отправлено!</h3>
+            </div>
          </div>
       </div>
       <script src="js/modernizr.js" type="text/ecmascript"></script>
