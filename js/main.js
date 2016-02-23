@@ -79,6 +79,7 @@ $('#ui-ux').on('click', function() {
 $("input[name='phone']").each(function() {
     $(this).mask("+7 (999) 999-99-99");
 });
+
 var sendForm = function() {
     var task = $("#service").val();
     var clientName = $("#name").val();
@@ -86,18 +87,23 @@ var sendForm = function() {
     var clientMessage = $("#message").val();
     var finishedMessage = 'Тип задачи: ' + task + '. Имя обратившегося: ' + clientName + '. Номер телефона: ' + clientPhone + '. Текст сообщения: ' + clientMessage;
     var msg = $('#contact-form').serialize();
-
-    $.ajax({
-        type: "post",
-        url: "send.php",
-        data: msg,
-        cache: false,
-        success: function(html) {
-            $('#contact-form').hide();
-            $('#partnership').hide();
-            $('#cube').removeClass().addClass('BF');
-        }
-    })
+    if (clientPhone != 0) {
+        $.ajax({
+            type: "post",
+            url: "send.php",
+            data: msg,
+            cache: false,
+            success: function(html) {
+                $('#contact-form').hide();
+                $('#partnership').hide();
+                $('#cube').removeClass().addClass('BF');
+            }
+        });
+    } else {
+        $('#partnership').html("Заполните все поля");
+        $('#partnership').css('color', '#d14233');
+        $('#partnership').css('text-shadow', '0 0 5px #e74c3c')
+    }
     return false;
 };
 

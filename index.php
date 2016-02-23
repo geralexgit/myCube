@@ -2,7 +2,7 @@
 <html lang="en" class="js csstransforms3d">
    <head>
       <meta charset="UTF-8">
-      <title>Герасимов Александр – Веб разработчик</title>
+      <title>Gerasimov Alexander – Web Developer</title>
       <link rel="shortcut icon" href="dev.png" type="image/png">
       <link rel="stylesheet" href="styles/main.css">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
@@ -202,7 +202,7 @@
                      <option value="site">Разработка сайта</option>
                      <option value="other">Другое или несколько</option>
                   </select>
-                  <input id="name" maxlength="30" name="name" placeholder="Введите ваше имя" type="text">
+                  <input id="name" maxlength="30" name="name" placeholder="Введите ваше имя" type="text" required>
                   <input id="phone" maxlength="15" name="phone" placeholder="Введите номер телефона" type="tel" required>
                   <textarea type="text" placeholder="Кратко опишите задачу" name="message" id="message" required></textarea>
                   <button id="send" class="ripple animation" onclick="sendForm(); return false;" type="submit"><i class="fa fa-envelope-o"></i> Отправить</button>
