@@ -15,6 +15,6 @@ $message = htmlspecialchars($_POST['message']);
 
 
 //отправляем поля
-file_get_contents($website."/sendmessage?chat_id=".$chatId."&text=".$service. ". ".$name.". ".$phone.". ".$message);
+file_get_contents($website."/sendmessage?chat_id=".$chatId."&text=".$service. ". ".$name.". ".$phone." ".$message);
 
 ?>
