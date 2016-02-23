@@ -56,9 +56,9 @@ $('#left-to-face').on('click', function() {
 
 /*from back to bottom*/
 var messageSent = function() {
-    $('#cube').removeClass().addClass('BF');
-}
-//services icons
+        $('#cube').removeClass().addClass('BF');
+    }
+    //services icons
 $('#html').on('click', function() {
     $('#cube').removeClass().addClass('RTB');
     $('#service').val('html');
@@ -75,8 +75,10 @@ $('#ui-ux').on('click', function() {
     $('#cube').removeClass().addClass('RTB');
     $('#service').val('design');
 });
-
-
+//PHONE MASK
+$("input[name='phone']").each(function() {
+    $(this).mask("+7 (999) 999-99-99");
+});
 var sendForm = function() {
     var task = $("#service").val();
     var clientName = $("#name").val();
@@ -98,5 +100,3 @@ var sendForm = function() {
     })
     return false;
 };
-
-

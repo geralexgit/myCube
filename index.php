@@ -223,8 +223,11 @@
       <script src="js/modernizr.js" type="text/ecmascript"></script>
       <script src="js/jquery/jquery-1.11.3.min.js" type="text/ecmascript"></script> 
       <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.13.1/jquery.validate.min.js'></script>    
-      <script src="js/main.js" type="text/ecmascript"></script>
+
       <script src="js/tooltipster/jquery.tooltipster.min.js" type="text/ecmascript"></script>
       <script src="js/ripple/jquery.materialripple.js" type="text/ecmascript"></script>
+      <script src="js/phonemask/jquery.maskedinput.min.js"></script>
+      <script src="js/main.js" type="text/ecmascript"></script>
+
    </body>
 </html>
