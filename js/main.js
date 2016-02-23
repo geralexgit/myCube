@@ -90,15 +90,17 @@ var sendForm = function() {
     var clientMessage = $("#message").val();
     var finishedMessage = 'Тип задачи: ' + task + '. Имя обратившегося: ' + clientName + '. Номер телефона: ' + clientPhone + '. Текст сообщения: ' + clientMessage;
 
+    var msg = $('#contact-form').serialize();
 
     $.ajax({
         type: "post",
         url: "send.php",
-        data: finishedMessage,
+        data: msg,
         cache: false,
         success: function(html) {
             console.log(task, clientName, clientPhone, clientMessage);
             console.log(finishedMessage);
+            console.log(msg);
             /*$('#contact-form').hide();
             $('#partnership').hide();
             $('#cube').removeClass().addClass('BF');*/

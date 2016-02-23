@@ -6,10 +6,13 @@ $website = "https://api.telegram.org/bot".$botToken;
 
 $chatId = 21439948;
 //получаем поля
-$service = $_GET['service'];
-$name = $_GET['name'];
-$phone = $_GET['phone'];
-$message = $_GET['message'];
+$service = htmlspecialchars($_POST['service']);
+$name = htmlspecialchars($_POST["name"]);
+$phone = htmlspecialchars($_POST['phone']);
+$message = htmlspecialchars($_POST['message']);
+
+
+echo "$message";
 //отправляем поля
 file_get_contents($website."/sendmessage?chat_id=".$chatId."&text=".$service. ". ".$name.". ".$phone.". ".$message);
 
