@@ -208,10 +208,10 @@
                </form>
             </div>
             <div id="left">
-               <!--ID MEANS GO BACK FROM LEFT TO BACK-->
+               <!--ID MEANS GO BACK FROM LEFT TO BACK
                <a href="#" class="turn-left" id="left-to-back"><i class="fa fa-arrow-left fa-2x"></i></a>
                <a href="#" class="turn-right" id="left-to-face"><i class="fa fa-arrow-right fa-2x"></i></a>            
-               <script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=cw37YkbdOKZJscRMYtI6uZ5Fx7pkHv7B&width=380&height=380&lang=ru_RU&sourceType=constructor"></script>
+               <script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=cw37YkbdOKZJscRMYtI6uZ5Fx7pkHv7B&width=380&height=380&lang=ru_RU&sourceType=constructor"></script>-->
             </div>
             <div id="top"></div>
             <div id="bottom">
