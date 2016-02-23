@@ -25,7 +25,9 @@ body {
     -moz-transition: background-color 0.7s, color 1s, opacity 0.5s;
     transition: background-color 0.7s, color 1s, opacity 0.5s;
 }
-
+#particles-js {
+    height: 99vh;
+}
 video {
     height: 380px;
     width: 380px;

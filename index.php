@@ -11,6 +11,7 @@
       <link rel="stylesheet" href="styles/jquery.materialripple.css">
     </head>
    <body>
+   <div id="particles-js">
       <div id="viewport">
          <div id="cube">
             <div id="front">
@@ -217,8 +218,9 @@
             <div id="bottom">
                <i class="fa fa-check fa-5 ok"></i> 
                <h3>Ваше сообщение отправлено!</h3>
-            </div>
+            </div>`
          </div>
+      </div>
       </div>
       <script src="js/modernizr.js" type="text/ecmascript"></script>
       <script src="js/jquery/jquery-1.11.3.min.js" type="text/ecmascript"></script> 
@@ -227,6 +229,7 @@
       <script src="js/tooltipster/jquery.tooltipster.min.js" type="text/ecmascript"></script>
       <script src="js/ripple/jquery.materialripple.js" type="text/ecmascript"></script>
       <script src="js/phonemask/jquery.maskedinput.min.js"></script>
+      <script src="js/particles.min.js"></script>
       <script src="js/main.js" type="text/ecmascript"></script>
 
    </body>
